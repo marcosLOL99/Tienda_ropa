@@ -1,0 +1,27 @@
+.navBar {
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 2rem;
+}
+
+nav .navLink {
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  color: #ffffff;
+  background: transparent;
+  border-radius: 5px;
+  font-weight: 500;
+  transition: background 0.2s, color 0.2s;
+}
+
+nav .navLink.active,
+nav .navLink[aria-current="page"] {
+  background: #ffffff;
+  color: #000000;
+}

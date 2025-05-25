@@ -1,0 +1,170 @@
+.carrito {
+  background: #000;
+  padding: 24px 16px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 280px;
+  height: 100vh;
+  z-index: 2000;
+  box-shadow: -2px 0 16px rgba(0,0,0,0.3);
+  display: flex;
+  flex-direction: column;
+}
+
+.carrito .boton-volver {
+  background: #646cff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  transition: background 0.2s;
+  flex-shrink: 0;
+}
+.carrito .boton-volver:hover {
+  background: #535bf2;
+}
+
+.carrito ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex: 0 1 auto;
+  overflow-y: auto;
+  min-height: 0;
+  max-height: 75vh;
+}
+
+.carrito li {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  border-bottom: 1px solid #444;
+  padding-bottom: 16px;
+  margin-bottom: 16px;
+  font-size: 0.95rem;
+}
+
+.carrito img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: 250px;
+  max-height: 250px;
+  border-radius: 6px;
+  object-fit: cover;
+  margin-bottom: 4px;
+}
+
+.carrito li > div {
+  font-size: 1.1rem;
+  color: #fff;
+  font-weight: 500;
+}
+
+.carrito footer {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.carrito footer button {
+  border-radius: 6px;
+  border: none;
+  background: #646cff;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.carrito footer button:hover {
+  background: #535bf2;
+}
+
+.carrito-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  margin-top: 1rem;
+  flex-shrink: 0;
+}
+
+.carrito-total {
+  text-align: left;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.carrito-botones {
+  display: flex;
+  gap: 0.7rem;
+  justify-content: flex-start;
+}
+
+.boton-pagar {
+  background: #646cff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.7rem 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.boton-pagar:hover {
+  background: #535bf2;
+}
+
+.carrito .boton-clearcart {
+  background: #ff4d4f;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.7rem 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.carrito .boton-clearcart:hover {
+  background: #d9363e;
+}
+
+.boton-carrito {
+  border-radius: 9999px;
+  cursor: pointer;
+  background-color: #242424;
+  height: 32px;
+  padding: 4px;
+  right: 8px;
+  top: 8px;
+  transition: all .3s ease;
+  width: 32px;
+}
+
+.carrito-cantidad {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.carrito-cantidad button {
+  padding: 2px 8px;
+  font-size: 0.9rem;
+  border-radius: 4px;
+  background: #000000;
+  color: #fff;
+  border: #fff 1px solid;
+  cursor: pointer;
+  transition: background 0.2s;
+}

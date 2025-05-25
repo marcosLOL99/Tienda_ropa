@@ -1,0 +1,60 @@
+{
+  "productos": [
+    {
+      "id": "1",
+      "titulo": "Camiseta Básica Grisacea",
+      "descripcion": "Camiseta de algodón suave, ideal para un look casual diario.",
+      "precio": 14.99,
+      "categoria": "camisetas",
+      "imagen": "./src/assets/img/camiseta-basica-gris.jpg"
+    },
+    {
+      "id": "2",
+      "titulo": "Camiseta Básica Negra",
+      "descripcion": "Camiseta de algodón suave, ideal para un look casual diario.",
+      "precio": 14.95,
+      "categoria": "camisetas",
+      "imagen": "./src/assets/img/camiseta-basica-negra.jpg"
+    },
+    {
+      "id": "3",
+      "titulo": "Pantalón Straight Fit Hombre",
+      "descripcion": "Pantalón straight fit confeccionado en tejido de algodón. Bolsillos frontales y detalle de bolsillos traseros de solapa con botón.",
+      "precio": 39.99,
+      "categoria": "pantalones",
+      "imagen": "./src/assets/img/pantalon-straight.jpg"
+    },
+    {
+      "id": "4",
+      "titulo": "Pantalón Relaxed Fit Hombre",
+      "descripcion": "Pantalón relaxed fit confeccionado en tejido de algodón. Cinco bolsillos. Aplicación de tira multifunción en perneras. ",
+      "precio": 39.95,
+      "categoria": "pantalones",
+      "imagen": "./src/assets/img/pantalon-relaxed-fit.jpg"
+    },
+    {
+      "id": "5",
+      "titulo": "Sudadera con Capucha",
+      "descripcion": "Sudadera unisex con capucha al estilo streetwear.",
+      "precio": 29.99,
+      "categoria": "sudaderas",
+      "imagen": "./src/assets/img/sudadera-capucha.jpg"
+    },
+    {
+      "id": "6",
+      "titulo": "Sudadera sin Capucha",
+      "descripcion": "Sudadera unisex sin capucha, ideal para el entretiempo.",
+      "precio": 29.95,
+      "categoria": "sudaderas",
+      "imagen": "./src/assets/img/sudadera-sin-capucha.jpg"
+    },
+    {
+      "id": "c070",
+      "titulo": "Pantalón azul",
+      "descripcion": "Pantalón canvas lavado",
+      "precio": 29.95,
+      "categoria": "pantalones",
+      "imagen": "https://static.zara.net/assets/public/1a05/19a7/33fc4369b6ea/d83cd6956322/06917440406-e1/06917440406-e1.jpg?ts=1747725247934&w=750"
+    }
+  ]
+}

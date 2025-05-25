@@ -1,0 +1,31 @@
+.filtros {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: flex-start;
+  font-size: 13px;
+  font-weight: 700;
+  gap: 2rem;
+}
+
+.filtros > div {
+  display: flex;
+  gap: 0.5rem;
+}
+
+
+.filtros input[type="range"] {
+  cursor: pointer;
+}
+
+.filtros select {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.filtros select:focus,
+.filtros input:focus {
+  outline: none;
+  border-color: #007bff;
+}

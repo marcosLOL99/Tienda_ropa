@@ -1,0 +1,10 @@
+.main-layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 250px;
+  padding: 1rem;
+  border-right: 1px solid #ddd;
+}

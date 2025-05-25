@@ -1,0 +1,98 @@
+.panel-admin-container {
+  max-width: 700px;
+  margin: 2rem auto;
+  background: #181818;
+  border-radius: 14px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.15);
+  padding: 2rem 2.5rem;
+}
+
+.panel-admin-container h1 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.formulario-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.titulo {
+  color: #646cff;
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+.formulario-panel input {
+  padding: 0.7rem 1rem;
+  border-radius: 6px;
+  border: 1px solid #333;
+  background: #222;
+  color: #fff;
+  font-size: 1rem;
+  outline: none;
+  transition: border 0.2s;
+}
+
+.formulario-panel input:focus {
+  border: 1.5px solid #646cff;
+}
+
+.formulario-panel button[type="submit"], .formulario-panel button[type="button"] {
+  background: #646cff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.7rem 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+  margin-right: 0.5rem;
+}
+
+.formulario-panel button[type="submit"]:hover, .formulario-panel button[type="button"]:hover {
+  background: #535bf2;
+}
+
+.lista-productos {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.lista-productos li {
+  background: #222;
+  color: #fff;
+  border-radius: 6px;
+  margin-bottom: 0.7rem;
+  padding: 0.7rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.lista-productos li button {
+  align-items: end;
+  background: #646cff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 0.4rem 0.8rem;
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  margin-left: 1rem;
+  transition: background 0.2s;
+}
+
+.lista-productos li button:hover {
+  background: #535bf2;
+}
