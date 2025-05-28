@@ -1,15 +1,20 @@
 import { NavLink } from "react-router-dom";
 import { usoUsuario } from "../contexto/UsuContexto";
 import { Carrito } from "./Carrito";
-import { useState } from "react";
 import "../estilos/NavBar.css";
 import { UsuarioBoton } from "./UsuarioBoton";
 
 const NavBar = () => {
-  const { usuario, logout } = usoUsuario();
+  const { usuario } = usoUsuario();
 
   return (
     <header className="navBar">
+      <div className="navBar-logo-container">
+        <img src="../src/assets/img/logo-tienda.png" alt="Logo" className="navBar-logo"/>
+      </div>
+      <div>
+        <h1>Tiendita de Marcos</h1>
+      </div>
       <nav>
         <NavLink to="/" className="navLink">Home</NavLink>
 
